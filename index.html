@@ -83,18 +83,19 @@
             listText.textContent = updateItem;
           }
         });
-        //save shopping list data to Local storage
-        // Load items from Local Storage on page load
-        if (localStorage.getItem("shoppingList")) {
-          list.innerHTML = localStorage.getItem("shoppingList");
-        }
-
-        // Inside the button click event listener after adding the item to the list
-        localStorage.setItem("shoppingList", list.innerHTML);
-
-        // Inside the delete button click event listener after removing an item
-        localStorage.setItem("shoppingList", list.innerHTML);
       });
+      //save shopping list data to Local storage
+      // Load items from Local Storage on page load
+      //   if (localStorage.getItem("shoppingList")) {
+      //     list.innerHTML = localStorage.getItem("shoppingList");
+      //   }
+
+      //   // Inside the button click event listener after adding the item to the list
+      //   localStorage.setItem("shoppingList", list.innerHTML);
+
+      //   // Inside the delete button click event listener after removing an item
+      //   localStorage.setItem("shoppingList", list.innerHTML);
+      //
     </script>
   </body>
 </html>
